@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;   
+    display: flex; 
+}
+
+p{
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.lista__footer{
+    list-style: none;
+    display: flex;
+    justify-content: center;    
+}
+
+.lista__footer li{
+    padding: 8px;
+}
+
+.lista__footer a{
+    text-decoration: none;
+}
