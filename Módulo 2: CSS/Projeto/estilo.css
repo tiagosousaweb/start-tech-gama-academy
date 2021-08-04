@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: lightcoral;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+body{
+    background: url(./imagens/fundo.jpeg) no-repeat center center fixed;  
+    background-size: cover;  
+}
+
+.container{
+    text-align: center;
+}
+
+.container .name h1{
+    font-size: 60px;
+}
+
+.container .name h5{
+    font-size: 25px;
+}
+
+.form{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input{
+    width: 50%;
+}
+
+.form button{
+    width: 15%;
+}
+
+/* parei na aula Assistindo agora: [ST] Extras - Módulo 2: CSS || 15 - FlexBox aos 02:33 min */
