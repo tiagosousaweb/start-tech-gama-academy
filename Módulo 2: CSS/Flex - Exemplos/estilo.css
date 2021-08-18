@@ -1,0 +1,19 @@
+.item{
+    border: 1px solid #333;     
+}
+
+.flex{
+    display: flex;   
+    justify-content: center; 
+}
+
+.flex img{
+    max-width: 350px;
+}
+
+.flex div{
+    flex-basis: 100%;
+    background-color: lightblue;
+    margin: 15px;
+}
+

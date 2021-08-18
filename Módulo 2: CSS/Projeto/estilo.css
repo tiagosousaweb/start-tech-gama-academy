@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: lightcoral;
+    color: rgb(204, 188, 99);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -10,6 +10,10 @@ ul{
     list-style: none;
     font-size: 20px;
     font-style: italic;
+}
+
+.logo img{
+    width: 50px;;
 }
 
 a{
@@ -20,6 +24,26 @@ a{
 body{
     background: url(./imagens/fundo.jpeg) no-repeat center center fixed;  
     background-size: cover;  
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    padding: 5px;
+}
+
+.apresentacao{
+    width: 50%;
+    margin: 0 auto;
 }
 
 .container{
@@ -47,4 +71,3 @@ body{
     width: 15%;
 }
 
-/* parei na aula Assistindo agora: [ST] Extras - Módulo 2: CSS || 15 - FlexBox aos 02:33 min */
